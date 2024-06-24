@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+<!-- Стиль footer-a для главной страницы -->
+{% block css %}
+    <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
+{% endblock css %}
+
+
+{% block content %}
+    <h1 class="mt-5 pt-5" style="margin-left: 430px; font-size: 46px;"><strong>{{ content }}</strong></h1>
+{% endblock content %}
+
+
+{% block footer %}
+    <footer class="py-2 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; ПАРУС 2024</p>
+        </div>
+    </footer>
+{% endblock footer %}
