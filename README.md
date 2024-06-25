@@ -1,5 +1,4 @@
- Сайт [Furniture_app](https://bashlykov2005.github.io/furniture_app/)
- - Django, VS Code, SQLite, 
- 
----
-:point_right: [Смотреть здесь](https://bashlykov2005.github.io/furniture_app/)
+Интернет магазин мебели включающий навигационную панель, каталог товаров, корзину, профиль и личный кабинет пользователя, систему филтров по цене и наличию скидок по акции, поиск по ключевым словам.
+При создании сайта использовались
+ - Django, Postgresql, VS Code, HTML (Bootstrap), CSS
+
